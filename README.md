@@ -5,9 +5,9 @@
 
 # Zaevo
 
-**Systems-first | Web | Apps | Networking**
+**Systems-First Design | Connected Ecosystems | Scalable Networks | Applied AI**
 
-[Discord](https://discord.com/users/thatdudeyoudontknow) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Email](mailto:serpentmillers429@gmail.com) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Linkedin](https://www.linkedin.com/in/snehil-gautam-198347318) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Portfolio](https://serpmillers.github.io) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Blog]() &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Spotify](https://open.spotify.com/user/dobrvxx08ja83nzknkty7zfp9?si=370aff0608ce4c56)
+[Discord](https://discord.com/users/thatdudeyoudontknow) &nbsp;&nbsp;|&nbsp;&nbsp; [Email](mailto:serpentmillers429@gmail.com) &nbsp;&nbsp;|&nbsp;&nbsp; [Linkedin](https://www.linkedin.com/in/snehil-gautam-198347318) &nbsp;&nbsp;|&nbsp;&nbsp; [Portfolio](https://serpmillers.github.io) &nbsp;&nbsp;|&nbsp;&nbsp; [Blog]() &nbsp;&nbsp;|&nbsp;&nbsp; [Spotify](https://open.spotify.com/user/dobrvxx08ja83nzknkty7zfp9?si=370aff0608ce4c56)
 
 </div>
 
@@ -19,9 +19,9 @@
 
 <div align="center">
 
-I like working across layers: systems, networking, backend logic, and UI. Not really into "learning" tech, I'd rather take things apart, figure out what's actually going on, and rebuild them into something that works. Using things is easy, understanding them is the point.
+I like working across layers: systems, networking, backend logic, and UI. Not really into "learning" tech, I'd rather take things apart, figure out what's actually going on, and rebuild them into something that works. If it breaks, good. Now I *have* to understand it. That's usually where things start getting interesting.
 
-If it breaks, good. Now I *have* to understand it. That's usually where things start getting interesting.
+*(I mean of course I have to do something about it otherwise that's just time wasted ¯\\(ツ)/¯)*
 
 </div>
 
@@ -29,21 +29,12 @@ If it breaks, good. Now I *have* to understand it. That's usually where things s
 
 <hr style="height: 1px; background-color: #30363d; border: none; margin: 20px 0;">
 
-Most of what I build comes from curiosity: "*how does this actually work?*" or "*Is there another way to reach the same point?*"  
-
-So I just...  
-→ *break it*  
-→ *debug it*  
-→ *and sometimes turn it into something usable*
-
-**Lately, that's looked like:**
-
+Lately, that's looked like:
 - OS-level experiments (xv6, qemu, custom shells, architectures)
 - Linux-heavy workflows (containers, systemd, remote setups)
 - desktop + web apps (music player, system tools)
 - AI/NLP systems like *nomi* (More work to be done here)
 
-I'm most comfortable close to the system — terminals, processes, and things that aren't abstracted away too much.
 
 </div>
 
@@ -51,7 +42,7 @@ I'm most comfortable close to the system — terminals, processes, and things th
 
 <div align="center">
 
-## Projects
+## List of Assorted Projects
 
 </div>
 
