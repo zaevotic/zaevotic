@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="420" viewBox="0 0 860 420">
+  <defs>
+    <style>
+      text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,monospace; font-size: 15px; }
+      .bg   { fill: #f5f2ee; }
+      .bdr  { fill: none; stroke: #d8cfc4; stroke-width: 1; }
+      .red  { fill: #9e3a22; }
+      .redf { fill: #7a2c18; }
+      .dim  { fill: #b0a090; }
+      .mid  { fill: #5c4e42; }
+      .val  { fill: #2a2018; }
+      .brgt { fill: #1a1208; }
+      .dot  { fill: #c8bcae; }
+      .add  { fill: #4a8a3a; }
+      .del  { fill: #9e3a22; }
+
+      /* ── ANIMATION KEYFRAMES ─────────────────────────── */
+      
+      /* Pure hardware blink for terminal cursor */
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      @keyframes printRow {
+        from { opacity: 0; transform: translateY(4px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .row {
+        opacity: 0;
+        animation: printRow 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+      }
+
+      .cursor {
+        animation: blink 1s step-end infinite;
+      }
+
+    </style>
+  </defs>
+
+  <rect class="bg" width="860" height="420" rx="6"/>
+  <rect class="bdr" x="0.5" y="0.5" width="859" height="419" rx="6"/>
+
+  <text x="28" y="38" class="dim">┌──────&gt;</text>
+
+  <text x="28" y="60">
+    <tspan class="red">│ </tspan><tspan class="red">zaevo</tspan><tspan class="dim"> on </tspan><tspan class="brgt">OMEN-erde</tspan><tspan class="dim"> at </tspan><tspan class="val">~</tspan>
+  </text>
+
+  <text x="28" y="81">
+    <tspan class="red">└─&gt; </tspan><tspan class="mid">fastfetch</tspan><tspan class="brgt cursor">_</tspan>
+  </text>
+
+  <g class="row step-1">
+    <text x="28" y="116" class="red" font-size="12" letter-spacing="1">- About</text>
+    <line class="div-line step-1" x1="110" y1="111" x2="832" y2="111" stroke="#2b2018" stroke-width="1"/>
+  </g>
+
+  <text x="28" y="136" class="row step-2">
+    <tspan class="redf">. </tspan><tspan class="mid">Role</tspan><tspan class="dot">: .....................</tspan><tspan class="val"> hobbyist . nvim_enthusiast</tspan>
+  </text>
+  <text x="28" y="156" class="row step-3">
+    <tspan class="redf">. </tspan><tspan class="mid">Interests</tspan><tspan class="dot">: ................</tspan><tspan class="val"> linux_ricing . digital_tomfoolery . culinary_war_crimes</tspan>
+  </text>
+  <text x="28" y="176" class="row step-4">
+    <tspan class="redf">. </tspan><tspan class="mid">Location</tspan><tspan class="dot">: .................</tspan><tspan class="val"> 127.0.0.1</tspan>
+  </text>
+
+  <g class="row step-5">
+    <text x="28" y="208" class="red" font-size="12" letter-spacing="1">- GitHub</text>
+    <line class="div-line step-5" x1="120" y1="203" x2="832" y2="203" stroke="#2b2018" stroke-width="1"/>
+  </g>
+
+  <text x="28" y="228" class="row step-6">
+    <tspan class="redf">. </tspan><tspan class="mid">Repos</tspan><tspan class="dot">: .....</tspan><tspan class="val" id="repo_data">18</tspan>
+    <tspan class="dim"> {Contributed: </tspan><tspan class="val" id="contrib_data">28</tspan><tspan class="dim">}</tspan>
+    <tspan class="dim">  |  Stars</tspan><tspan class="dot">: .......</tspan><tspan class="val" id="star_data">2</tspan>
+  </text>
+  <text x="28" y="248" class="row step-7">
+    <tspan class="redf">. </tspan><tspan class="mid">Commits</tspan><tspan class="dot">: ....................</tspan><tspan class="val" id="commit_data">130</tspan>
+    <tspan class="dim">  |  Followers</tspan><tspan class="dot">: ...</tspan><tspan class="val" id="follower_data">8</tspan>
+  </text>
+  <text x="28" y="268" class="row step-8">
+    <tspan class="redf">. </tspan><tspan class="mid">Lines of Code</tspan><tspan class="dot">: ..</tspan><tspan class="val" id="loc_data">67,769</tspan>
+    <tspan class="dim">  (</tspan><tspan class="add" id="loc_add">386,298</tspan><tspan class="dim">, </tspan><tspan class="del" id="loc_del">318,529</tspan><tspan class="dim"> )</tspan>
+  </text>
+
+  <g class="row step-9">
+    <text x="28" y="300" class="red" font-size="12" letter-spacing="1">- System</text>
+    <line class="div-line step-9" x1="120" y1="295" x2="832" y2="295" stroke="#2b2018" stroke-width="1"/>
+  </g>
+
+  <text x="28" y="320" class="row step-10">
+    <tspan class="redf">. </tspan><tspan class="mid">OS</tspan><tspan class="dot">: ......................</tspan><tspan class="val"> Arch Linux [Erde]</tspan>
+  </text>
+  <text x="28" y="340" class="row step-11">
+    <tspan class="redf">. </tspan><tspan class="mid">Kernel</tspan><tspan class="dot">: ..................</tspan><tspan class="val"> Linux 7.0.12-zen1-1-zen</tspan>
+  </text>
+  <text x="28" y="360" class="row step-12">
+    <tspan class="redf">. </tspan><tspan class="mid">Shell</tspan><tspan class="dot">: ...................</tspan><tspan class="val"> zsh 5.9.1</tspan>
+  </text>
+  <text x="28" y="380" class="row step-13">
+    <tspan class="redf">. </tspan><tspan class="mid">WM</tspan><tspan class="dot">: ......................</tspan><tspan class="val"> niri 26.04 (Wayland)</tspan>
+  </text>
+  <text x="28" y="400" class="row step-14">
+    <tspan class="redf">. </tspan><tspan class="mid">Terminal</tspan><tspan class="dot">: ................</tspan><tspan class="val"> kitty 0.47.1</tspan>
+  </text>
+</svg>
