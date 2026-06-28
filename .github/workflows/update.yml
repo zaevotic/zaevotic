@@ -41,6 +41,15 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: ${{ secrets.USER_NAME }}
         run: python update.py
+      
+      - name: Inspect File Changes
+        run: |
+          echo "Checking modification times..."
+          ls -l dark.svg light.svg
+          echo "Git status..."
+          git status
+          echo "Content diff..."
+          git diff --stat
 
       - name: Commit and push changes
         run: |
