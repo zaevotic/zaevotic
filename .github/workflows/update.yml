@@ -7,8 +7,9 @@ name: SVG Update
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: "0 4 * * *"   # runs daily at 04:00 UTC
+    schedule:
+    - cron: "0 4 * * *"
+    workflow_dispatch:
 
 jobs:
   update:
