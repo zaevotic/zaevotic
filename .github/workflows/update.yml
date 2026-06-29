@@ -56,11 +56,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git add dark.svg light.svg cache/*.txt || true
-          if git diff --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update SVG status bars" -a
-            git push
-          fi
+          git commit -m "workflow: SVG files updated" -a || echo "No changes to commit"
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
