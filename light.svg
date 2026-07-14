@@ -79,12 +79,12 @@
     <tspan class="dim">  |  Stars</tspan><tspan class="dot">: .......</tspan><tspan class="val" id="star_data">2</tspan>
   </text>
   <text x="28" y="248" class="row step-7">
-    <tspan class="redf">. </tspan><tspan class="mid">Commits</tspan><tspan class="dot">: ....................</tspan><tspan class="val" id="commit_data">139</tspan>
-    <tspan class="dim">  |  Followers</tspan><tspan class="dot">: ...</tspan><tspan class="val" id="follower_data">9</tspan>
+    <tspan class="redf">. </tspan><tspan class="mid">Commits</tspan><tspan class="dot">: ....................</tspan><tspan class="val" id="commit_data">144</tspan>
+    <tspan class="dim">  |  Followers</tspan><tspan class="dot">: ...</tspan><tspan class="val" id="follower_data">10</tspan>
   </text>
   <text x="28" y="268" class="row step-8">
-    <tspan class="redf">. </tspan><tspan class="mid">Lines of Code</tspan><tspan class="dot">: ..</tspan><tspan class="val" id="loc_data">71,317</tspan>
-    <tspan class="dim">  (</tspan><tspan class="add" id="loc_add">390,423</tspan><tspan class="dim">, </tspan><tspan class="del" id="loc_del">319,106</tspan><tspan class="dim"> )</tspan>
+    <tspan class="redf">. </tspan><tspan class="mid">Lines of Code</tspan><tspan class="dot">: ..</tspan><tspan class="val" id="loc_data">75,519</tspan>
+    <tspan class="dim">  (</tspan><tspan class="add" id="loc_add">395,925</tspan><tspan class="dim">, </tspan><tspan class="del" id="loc_del">320,406</tspan><tspan class="dim"> )</tspan>
   </text>
 
   <g class="row step-9">
