@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zaevo – Coming Soon</title>
+
+  <!-- Font imports (match upstream design) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Inter&family=Pirata+One&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
+</head>
+
+<body>
+  <div class="layout">
+    
+    <div id="matrix-container" class="matrix-container">
+      <canvas id="matrix-canvas"></canvas>
+      <div class="matrix-vignette-outer"></div>
+      <div class="matrix-vignette-inner"></div>
+    </div>
+    
+    <!-- MonitorBar -->
+    <header class="monitor-bar">
+      <div class="monitor-bar-left">
+        <div class="brand">
+          <span class="brand-logo"></span>
+          <span class="brand-text">zaevo</span>
+        </div>
+        <span class="separator">│</span>
+        <nav class="workspace-tabs">
+          <div class="tab-indicator"></div>
+          <a href="#" class="tab-link"><span class="tab-content">1:home</span></a>
+          <a href="#" class="tab-link active"><span class="tab-content">2:WIP</span></a>
+          <a href="#" class="tab-link"><span class="tab-content">3:term</span></a>
+          <a href="#" class="tab-link"><span class="tab-content">4:contact</span></a>
+          <a href="#" class="tab-link"><span class="tab-content">5:signal</span></a>
+        </nav>
+      </div>
+      <div class="monitor-bar-right">
+        <span class="host">OMEN-erde</span>
+        <span class="clock" id="topbar-clock">W.I.P</span>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="content-wrapper">
+        <h1 class="brand-heading">ZAEVO</h1>
+        <section class="panel cut">
+          <header class="panel-head">
+          <div class="panel-head-left">
+            <span class="dagger">†</span> 
+            <span class="panel-title">SYSTEM_STATUS</span>
+          </div>
+        </header>
+        <div class="panel-body">
+          <p class="lead">
+            This sector is currently offline. I'm building it from first principles.
+          </p>
+
+          <blockquote class="quote">
+            “Perfection in isolation is procrastination, yes, but trust me you’ll like this one.”
+          </blockquote>
+
+          <div class="cs-progress">
+            <div class="cs-progress-bar" style="width: 0%;"></div>
+          </div>
+
+          <div class="cs-progress-labels">
+            <span>ASSEMBLING COMPONENTS…</span>
+            <span>0%</span>
+          </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- StatusBar -->
+    <footer class="status-bar">
+      <div class="status-bar-left">
+        <span>WS <b class="status-ws">2:WIP</b></span>
+        <span>niri</span>
+      </div>
+      <div class="status-bar-right">
+        <span>zaevo@OMEN-erde</span>
+        <span class="separator">·</span>
+        <span class="status-date">W.I.P</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Custom Cursor -->
+  <div id="custom-cursor">
+    <div id="cc-dot"></div>
+    <div id="cc-ring"></div>
+    <div id="cc-focus">
+      <div class="cc-corner tl"></div>
+      <div class="cc-corner tr"></div>
+      <div class="cc-corner bl"></div>
+      <div class="cc-corner br"></div>
+    </div>
+  </div>
+</body>
+
+</html>
